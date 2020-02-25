@@ -11,8 +11,6 @@ When coding, I like to keep my main focus on the problem solving part and after 
 Python is one of the main programming languages used in *"AI"* which is the field I'd like to work in.
 ### Because it's fun !
 Learning a new programming language looks like hard work but it turns out its often fun *(at least it is for me)*
-<img src="/images/exercism.png" alt="EXERCISM LOGO" width="100" height="100"> (this is the exercism logo)
-
 ## Why Exercism ?
 ### Because it has an API
 Exercism has an api that integrates into your computer with a packet you install. It allows you to download exercises via simple terminal commands like ''exercism download --exercise=space-age --track=python''
@@ -27,8 +25,6 @@ Unlike many other coding-exercice website, Exercism doesn't require you to print
 ### Git
 I've chosen to upload all my exercices to Github <i class="fa fa-github"></i> once completed [here](https://github.com/ajnart/Exercism-Python) to that recruiters can look at my code and just be astonished by the sheere size of my brain and my huge algorithmitic solving capabilities.
 ### VsCode
-<img src="/images/vscode.png" alt="VSCODE" width="100" height="100">
-
 Visual Studio Code is the editor i've chosen to code these in. It allows me to have a direct keybind to run the tests and check where i'm at.
 Also the linter [MagicPython](https://github.com/MagicStack/MagicPython) is just **the best.**
 ### Do whatever you want, whenever you want to do it
