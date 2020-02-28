@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Pytest run",
+            "type": "shell",
+            "command": "pytest ${workspaceFolder}/${workspaceFolderBasename}_test.py",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

@@ -1,2 +1,4 @@
+from datetime import timedelta
+
 def add(moment):
-    pass
+    return(moment + timedelta(seconds=10 ** 9))
