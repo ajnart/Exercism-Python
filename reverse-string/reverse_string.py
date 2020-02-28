@@ -1,2 +1,2 @@
 def reverse(text):
-    pass
+    return ("".join(reversed(text)))
