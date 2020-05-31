@@ -12,4 +12,4 @@ class School(object):
         self.db[grade].add(name)
 
     def roster(self):
-        return [name for k, v in sorted(self.db.items()) for name in sorted(v)]exercism download --exercise=clock --track=python
+        return [name for k, v in sorted(self.db.items()) for name in sorted(v)]
