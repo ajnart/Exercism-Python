@@ -1,4 +1,4 @@
-![](https://github.com/actions/ajnart/Exercism-Python/.github/workflows/python-lint.yml/badge.svg)
+![](https://github.com/ajnart/Exercism-Python/.github/workflows/python-lint.yml/badge.svg)
 # Exercism-Python
 This repo is about all my exercices from https://exercism.io/my/tracks/python
 
