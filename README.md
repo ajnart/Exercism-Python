@@ -1,3 +1,4 @@
+[![Actions Status](https://xxx.execute-api.us-west-2.amazonaws.com/production/badge/ajnart/Exercism-Python)](https://xxx.execute-api.us-west-2.amazonaws.com/production/results/Ajnart/Exercism-Python)
 # Exercism-Python
 This repo is about all my exercices from https://exercism.io/my/tracks/python
 
