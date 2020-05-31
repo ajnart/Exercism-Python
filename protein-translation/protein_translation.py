@@ -22,5 +22,7 @@ def proteins(strand):
     results = []
     for i in range(0, len(strand), 3):
         acid = amino.get(strand[i:i + 3])
+        if acid == 'STOP':
+            break
         results.append(acid)
     return results
