@@ -1,11 +1,18 @@
-def is_valid(isbn: str):
-    number = 0
-    isbn = isbn.replace('-', '')
-    if len(isbn) < 10:
+def is_valid(isbn):
+    isbn = list(isbn.replace('-', ''))
+
+    if len(isbn) != 10:
         return False
+
+    if isbn[-1].upper() == 'X':
+        isbn[-1] = '10'
+
+    total = 0
+
     for i in range(10):
         try:
-            number += int(isbn[i] * (10-i))
-        except: 
+            total += int(isbn[i])*(10-i)
+        except:
             return False
-    return number % 11 == 0
+
+    return total % 11 == 0
